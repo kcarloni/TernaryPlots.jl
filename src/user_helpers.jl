@@ -9,6 +9,7 @@ function tern2cart(a, b, c)
     x = @. 1/2 * (2b+c)/N
     y = @. √3/2 * c/N
     return (x, y)
+end
 endtern2cart(vec) = tern2cart(vec[1], vec[2], vec[3])
 
 """
